@@ -1,0 +1,17 @@
+{
+  "name": "write-text-to-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc; node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "canvas": "^2.11.2",
+    "file-saver": "^2.0.5",
+    "googleapis": "^114.0.0"
+  }
+}
